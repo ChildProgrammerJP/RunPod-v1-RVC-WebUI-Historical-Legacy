@@ -61,7 +61,7 @@ model = models[0]
 model = model.to(device)
 printt("move model to %s" % device)
 if device != "cpu":
-    #model = model.half()
+    # model = model.half()
     model = model.float()
 model.eval()
 
@@ -84,7 +84,7 @@ else:
                 padding_mask = torch.BoolTensor(feats.shape).fill_(False)
                 inputs = {
                     "source": feats.float().to(device)
-                    #"source": feats.half().to(device)
+                    # "source": feats.half().to(device)
                     if device != "cpu"
                     else feats.to(device),
                     "padding_mask": padding_mask.to(device),
