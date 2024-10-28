@@ -14,6 +14,9 @@ Row 1049：maximum=2333 → maximum=1000（id）
 Row 1256：maximum=4 → maximum=1000（id）
 Row 1304：maximum=50 → maximum=1000（save_every_epoch）
 
+requirements.txt：
+Fine-tuned dependencies.
+
 Add file to start RVC WebUI with virtual environment built：
 launch.py
 webui.py
