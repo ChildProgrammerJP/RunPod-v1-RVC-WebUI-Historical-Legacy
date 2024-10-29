@@ -15,7 +15,7 @@ Row 1256：maximum=4 → maximum=1000（id）
 Row 1304：maximum=50 → maximum=1000（save_every_epoch）
 
 i18n/ja_JP.json：
-Row 57："每张显卡的batch_size": "每张显卡的batch_size", →  "每张显卡的batch_size": "バッチサイズ",
+Row 57："每张显卡的batch_size": "每张显卡的batch_size", →  "每张显卡的batch_size": "GPUごとのバッチサイズ",
 
 requirements.txt：
 Fine-tuned dependencies.
